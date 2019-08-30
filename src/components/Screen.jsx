@@ -5,7 +5,7 @@ class Screen extends Component {
   render() {
     return (
       <React.Fragment>
-        <div style={divScreenStyle} className="m-5 border">
+        <div style={divScreenStyle} className="m-1 border">
           <div className="mx-auto display-1">{this.props.valeur}</div>
         </div>
       </React.Fragment>
@@ -14,6 +14,7 @@ class Screen extends Component {
 }
 
 const divScreenStyle = {
-  paddingRight: 50
+  width: "20%",
+  height: "100%"
 };
 export default Screen;

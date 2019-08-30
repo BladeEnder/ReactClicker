@@ -19,12 +19,14 @@ class ButtonAdd extends Component {
   render() {
     return (
       <React.Fragment>
-        <input
+        <button
           type="submit"
           onClick={this.UpValue}
-          className="btn btn-success"
+          className="btn btn-lg btn-success"
           text="sdqd"
-        />
+        >
+          +
+        </button>
       </React.Fragment>
     );
   }

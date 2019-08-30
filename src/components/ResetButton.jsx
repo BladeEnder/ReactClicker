@@ -14,7 +14,7 @@ class ResetButton extends Component {
       <button
         onClick={this.resetValue}
         type="button"
-        className="btn btn-warning"
+        className="btn btn-lg btn-warning"
       >
         Reset
       </button>
